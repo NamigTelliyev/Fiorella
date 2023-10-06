@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+    list-style: none;
+}
+
+.headimg {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+}
+
+.headnav {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px; 
+}
+
+.headnav ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: black;
+    border-radius: 25px;
+    gap: 30px;
+    padding: 20px;
+}
+
+.headnav a{
+    text-decoration: none;
+    font: 40px;
+    color: gray;
+}
+
+.navhome:hover .homein {
+    display: block;
+    margin-bottom: 20px;
+
+}
+.homein {
+    display: none;
+}
+
+.homein ul {
+    display: block;
+    align-items: center;
+}
+
+.navpages:hover .pagesin {
+    display: block;
+}
+
+.pagesin {
+    display: none;
+}
+
+.pagesin ul {
+    display: block;
+}
+
+.navshop:hover .shopin {
+    display: block;
+} 
+
+.shopin {
+    display: none;
+}
+
+.shopin ul {
+    display: block;
+}
+
+.navportfolio:hover .portfolioin {
+    display: block;
+}
+
+.portfolioin {
+    display: none;
+}
+
+.portfolioin ul {
+    display: block;
+}
+
+.portfolioin1:hover .portfolioin1enter {
+    display: block;
+}
+
+.portfolioin1enter {
+    display: none;
+}
+
+.portfolioin1enter ul {
+    display: block;
+}
+
+.portfolioin2:hover .portfolioin2enter {
+    display: block;
+}
+
+.portfolioin2enter {
+    display: none;
+}
+
+.portfolioin2enter ul {
+    display: block;
+}
+
+.navblog:hover .blogin {
+    display: block;
+}
+
+.blogin {
+    display: none;
+}
+
+.blogin ul {
+    display: block;
+}
